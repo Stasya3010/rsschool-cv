@@ -1,23 +1,18 @@
 # **Anastasia Mikhailova**
 ---
-
 # **Contact information:**
 ---
-
 * **Location**: Kurgan, Russia
 * **Phone**: +7 9828000825
 * **E-mail**: stasya3010@mail.ru
 * **Telegram**: @Stasya_MikhaiLova
 * **GitHub**: Stasya3010
 ---
-
 ## **About Me:**
 ---
-
 I recently completed basic training in JavaScript, but I want to delve deeper into this topic, learn frameworks and get my first job in IT. 
 My strengths are independence, perseverance, self-discipline and the ability to work in a team.
 ---
-
 ## **My skills:**
 ---
 * HTML
@@ -83,6 +78,25 @@ button.addEventListener('click', function() {
 })
 ```
 ---
+## **Experience:**
+---
+* I have my own business - a consignment store, since 2019.
+* I have several projects in development that were created during my studies.
+
+## **Education:**
+---
+**University:** 
+* *Ural Institute of Economics, Management and Law*
+    + *Economy*
+    
+**Course:**    
+* *Bootcamp CanSheCode Inc. Canada:*
+    + *Frontend developer*
+---
+## **Languages:**
+---
+* Russian: native speaker
+* English: A2, B2 in process
 
 
 
