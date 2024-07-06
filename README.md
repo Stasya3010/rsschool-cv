@@ -1,4 +1,1 @@
-# rsschool
-https:Stasya3010.github.io/rsschool-cv
-https:Stasya3010.github.io/rsschool-cv/cv
-
+https://stasya3010.github.io/rsschool-cv/cv
