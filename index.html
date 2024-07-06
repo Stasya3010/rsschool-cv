@@ -14,48 +14,115 @@
 
 
     <header class="header">
-
         <nav class="nav">
             <ul class="nav-list">
-              <li class="nav-item"><a href="#Contacts" class="nav-link">Contacts</a></li>
-              <li class="nav-item"><a href="#About Me" class="nav-link">About Me</a></li>
-              <li class="nav-item"><a href="#My Skills" class="nav-link">My Skills</a></li>
-              <li class="nav-item"><a href="#Code Examples" class="nav-link">Code Examples</a></li>
-              <li class="nav-item"><a href="#Experience" class="nav-link">Experience</a></li>
-              <li class="nav-item"><a href="#Education" class="nav-link">Education</a></li>
-              <li class="nav-item"><a href="#Courses" class="nav-link">Courses</a></li>
-              <li class="nav-item"><a href="#English" class="nav-link">English</a></li>
+              <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+              <li class="nav-item"><a href="#about-me" class="nav-link">About Me</a></li>
+              <li class="nav-item"><a href="#my-skills" class="nav-link">My Skills</a></li>
+              <li class="nav-item"><a href="#code-examples" class="nav-link">Code Examples</a></li>
+              <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+              <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+              <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+              <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
             </ul>
           </nav>
-
-
-        <div class="container">
-
-        </div>
-
-
     </header>
 
-    <main class="main">
 
+    <main class="main" >
+        <div class="container main-container">
+            <section class="section main-profile" id="profile">
+                <img class="my-photo" src="11zon_cropped (1).png" alt="my photo" width="150px" />
+                <div class="section-profile">
+                <h1 class="section-title">ANASTASIA MIKHAILOVA</h1>
+                <p>JUNIOR FRONT-END DEVELOPER</p>
+            </div>
+            </section>
 
-        <div class="container">
+            <section class="section" id="contacts">
+                <h2 class="section-title">CONTACTS</h2>
+                <ul>
+                    <li class="section-item">Location: Kurgan, Russia</li>
+                    <li class="section-item">Phone: +7 9828000825</li>
+                    <li class="section-item">E-mail: stasya3010@mail.ru</li>
+                    <li class="section-item">Telegram: @Stasya_MikhaiLova</li>
+                    <li class="section-item">GitHub: Stasya3010</li>
+                </ul>
+            </section>
 
+            <section class="section" id="about-me">
+                <h2 class="section-title">ABOUT ME</h2>
+                <p>I recently completed basic training in JavaScript, <br>
+                     but I want to delve deeper into this topic, learn <br>
+                      frameworks and get my first job in IT.</p> 
+                <p>My strengths are independence, perseverance, self-discipline <br>
+                     and the ability to work in a team.</p> 
+            </section>
+
+            <section class="section" id="my-skills">
+                <h2 class="section-title">MY SKILLS</h2>
+                <ul>
+                    <li class="section-item">HTML</li>
+                    <li class="section-item">CSS (Bootstrap, Flexbox, SCSS)</li>
+                    <li class="section-item">JavaScript (ES6, DOM, JSON API, AJAX, GSAP)</li>
+                    <li class="section-item">Figma</li>
+                    <li class="section-item">VSCode, WebStorm</li>
+                </ul>
+            </section>
+
+<section class="section" id="code-examples">
+    <h2 class="section-title">CODE EXAMPLES</h2>
+        <pre class="pre">
+        <code>
+            function calculateAmount(e) {
+                e.preventDefault();
+                const bill = document.querySelector('#bill').value;
+                const people = document.querySelector('#people').value;
+                const tip = document.querySelector('#tip').value;
+                    
+                if (bill === '' || people < 1) {
+                Swal.fire({
+                icon: 'error',
+                title: 'Error!',
+                text: 'Please enter your information!',
+                })
+                }
+            </code>
+            </pre>
+                
+            </section>
+
+            <section class="section" id="experience">
+                <h2 class="section-title">EXPERIENCE</h2>
+                <p>I have my own business - a consignment store, since 2019.</p>
+                <p>I have several projects in development that were created during my studies.</p>
+            </section>
+
+            <section class="section" id="education">
+                <h2 class="section-title">EDUCATION</h2>
+                <p>Ural Institute of Economics, Management and Law</p>
+            </section>
+
+            <section class="section" id="courses">
+                <h2 class="section-title">COURSES</h2>
+                <p>Bootcamp CanSheCode Inc. Canada</p>
+            </section>
+
+            <section class="section" id="english">
+                <h2 class="section-title">ENGLISH</h2>
+                <p>А2: Pre-Intermediate</p>
+            </section>
         </div>
 
-
-        <img src="photo.jpg" alt="my photo" width="150px"/>
 
     </main>
 
     <footer class="footer">
-
-
-        <div class="container">
-
+        <div class="container footer-container">
+        <p><a href="https://github.com/Stasya3010" target="_blank">STASYA3010</a></p>
+        <p>2024</p>
+        <a class="logo-rss" href="https://rs.school/courses/javascript-preschool-ru" target="_blank"></a>
         </div>
-
-
     </footer>
 
 
